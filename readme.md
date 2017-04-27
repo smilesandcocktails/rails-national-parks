@@ -25,16 +25,16 @@ Let's create an app to showcase these wonderful parks.
 
 ### Routes and Views
 
-| route | description | controller |  action/view |
-|-------|-----|----|-----|------|
-| GET /  | Your home page | home | index |
-| GET /parks | list all parks | parks | index |
-| GET /parks/new | show add park form | parks | new |
-| POST /parks | create park | parks | create (no view) |
-| GET /parks/1 | list park (id=1) | parks | show |
-| GET /parks/2/edit | show edit park form (id=2) | parks | edit |
-| PUT /parks/3 | update an existing park (id=3) | parks | update (no view) |
-| DELETE /parks/3 | delete an existing park (id=3) | parks | destroy (no view) |
+| route             | description                    | controller | action/view      |
+| ----------------- | ------------------------------ | ---------- | ---------------- |
+| GET /             | Your home page                 | home       | index            |
+| GET /parks        | list all parks                 | parks      | index            |
+| GET /parks/new    | show add park form             | parks      | new              |
+| POST /parks       | create park                    | parks      | create (no view) |
+| GET /parks/1      | list park (id=1)               | parks      | show             |
+| GET /parks/2/edit | show edit park form (id=2)     | parks      | edit             |
+| PUT /parks/3      | update an existing park (id=3) | parks      | update (no view) |
+| DELETE /parks/3   | delete an existing park (id=3) | parks      | destroy (no view)|
 
 **Remember:** you can list all routes by running `rails routes` at the command line.
 
@@ -56,10 +56,10 @@ Let's create an app to showcase these wonderful parks.
 *   Test models
 *   run console `rails c`
 *   Try some stuff...
-  *   `Park.all`
-  *   `Park.create`
-  *   `Park.new`
-  *   `Park.find`
+    *   `Park.all`
+    *   `Park.create`
+    *   `Park.new`
+    *   `Park.find`
 *   Create functionality
 *   Add routes to `routes.rb`. Use `resources` to create a set of RESTful CRUD routes
 *   Add controllers, actions, and views where appropriate
