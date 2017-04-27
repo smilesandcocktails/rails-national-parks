@@ -4,24 +4,24 @@ Beginning with the first Tree Planting Campaign in 1963, At National Parks Board
 
 Let's create an app to showcase these wonderful parks.
 
-##Getting Started
+# Getting Started
 
-* Fork and clone this repository
-* Follow the recommended process for creating your Rails app.
+*   Fork and clone this repository
+*   Follow the recommended process for creating your Rails app.
 
-##Components
+# Components
 
 ### Models
 
-* A `Park` model that stores the following attributes. Choose the appropriate data types for each (`string` or `text`)
-  * `name`
-  * `description`
-  * `picture` (for now, have this store a URL to a picture of a park)
+*   A `Park` model that stores the following attributes. Choose the appropriate data types for each (`string` or `text`)
+*   `name`
+*   `description`
+*   `picture` (for now, have this store a URL to a picture of a park)
 
 ### Controllers
 
-* A controller for your home page
-* A controller for your `Park` model
+*   A controller for your home page
+*   A controller for your `Park` model
 
 ### Routes and Views
 
@@ -38,43 +38,43 @@ Let's create an app to showcase these wonderful parks.
 
 **Remember:** you can list all routes by running `rails routes` at the command line.
 
-##Recommended Process
+# Recommended Process
 
-###Create basic app
+### Create basic app
 
-* Fork and clone this repo
-* cd into the directory
-* Create app `rails new ./ -T -d postgresql`
-* Create database `rails db:create`
-* Test app
-  * Run server `rails s`
+*   Fork and clone this repo
+*   cd into the directory
+*   Create app `rails new ./ -T -d postgresql`
+*   Create database `rails db:create`
+*   Test app
+*   Run server `rails s`
 
-###Build specific functionality
+### Build specific functionality
 
-* Create model `rails g model ...` (you write the rest of this command)
-* Migrate `rails db:migrate`
-* Test models
-  * run console `rails c`
-  * Try some stuff...
-    * `Park.all`
-    * `Park.create`
-    * `Park.new`
-    * `Park.find`
-* Create functionality
-  * Add routes to `routes.rb`. Use `resources` to create a set of RESTful CRUD routes
-  * Add controllers, actions, and views where appropriate
-  * Add functionality for each controller action
-  * Test as needed
+*   Create model `rails g model ...` (you write the rest of this command)
+*   Migrate `rails db:migrate`
+*   Test models
+*   run console `rails c`
+*   Try some stuff...
+  *   `Park.all`
+  *   `Park.create`
+  *   `Park.new`
+  *   `Park.find`
+*   Create functionality
+*   Add routes to `routes.rb`. Use `resources` to create a set of RESTful CRUD routes
+*   Add controllers, actions, and views where appropriate
+*   Add functionality for each controller action
+*   Test as needed
 
 ## Bonuses
 
-* Create a seed file to load some National Parks
-* Replace the URL links with Cloudinary uploads.
-  * [Cloudinary Gem](https://github.com/cloudinary/cloudinary_gem)
-  * [Cloudinary Upload Notes](https://wdi_sea.gitbooks.io/notes/content/06-ruby-rails/additional-topics/rails-cloudinary/readme.html)
+*   Create a seed file to load some National Parks
+*   Replace the URL links with Cloudinary uploads.
+*   [Cloudinary Gem](https://github.com/cloudinary/cloudinary_gem)
+*   [Cloudinary Upload Notes](https://wdi_sea.gitbooks.io/notes/content/06-ruby-rails/additional-topics/rails-cloudinary/readme.html)
 
 ---
 
 ## Licensing
-1. All content is licensed under a CC-BY-NC-SA 4.0 license.
-2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
+1.  All content is licensed under a CC-BY-NC-SA 4.0 license.
+2.  All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
