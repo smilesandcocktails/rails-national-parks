@@ -1,0 +1,13 @@
+<h1>ADD NEW PARK</h1>
+
+<%= form_for @park, url: park_path(@park), html: {method: :post} do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+<%= f.label :description %>
+<%= f.text_field :description %>
+<%= f.label :picture %>
+<%= f.text_field :picture %>
+
+<%= f.submit "Add Park" %>
+
+<%end%>

@@ -1,0 +1,8 @@
+<h1>PARK YOURSELF</h1>
+<a href="/park/new">Create New Park</a>
+
+<% @parks.each do |each| %>
+<a href="/park/<%=each.id%>">
+  <p><%=each.id%> <%=each.name%> <%=each.description%> <%=each.picture%></p>
+</a>
+<%end %>
